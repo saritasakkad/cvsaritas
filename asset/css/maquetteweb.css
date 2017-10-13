@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+/* ====================================
+header
+==================================== */
+
+body {
+margin: 0;
+font-family: 'Montserrat', sans-serif;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:400,300,700|Open+Sans:400italic,300italic);
+body {
+background-color: #fff; }
+
+
+
+
+/* ====================================
+content-section
+==================================== */
+
+        .content-section {
+            background-color: #EA495F;
+            width: 100%;
+            height: 1300px;
+            margin: 0 auto;
+            padding: 15% 0;
+        }
+        .content-section h1 {
+            top: 50px;
+            left: 600px;
+            font-size: 40px;
+
+        }
+        .content-section p {
+            font-size: 1.2em;
+            color: #000;
+            margin-left: 50px;
+            margin-bottom: 5px;
+
+        }
+
+/* ====================================
+button terour
+==================================== */
+
+.content-section button{ background-color: #F48353;
+                         position: fixed;
+                         top: 0px;
+                         left: 10px;
+                         width: 70px;
+                         height: 70px;
+                         float: left;
+
+
+
+                         -webkit-border-radius: 500px 100px 200px 100px;
+                         border-radius: 500px 100px 200px 100px;
+                         -webkit-box-shadow:inset 2px 2px 2px 2px #96FF3B;
+                         box-shadow:inset 2px 2px 2px 2px #96FF3B;
+
+
+        }
+
+.content-section a { color: #fff;
+                     text-decoration:none;
+                     text-align: center;
+                     font-size: 45px;
+                    }
+
+
+      /* ====================================
+      mes maquetttes
+      ==================================== */
+
+
+.block  img { width: 400px;
+              height: 700px;
+              margin-left: 200px;
+              float: left;
+            }
+
+
+.block2  img { width:400px;
+               height: 700px;
+               margin-left: 130px;
+               float: left;
+             }
+
+.block3  img { width:400px;
+               height: 700px;
+               float: right;
+               margin-right: 200px;
+             }
+
+
+
+
+/* ====================================
+footer
+==================================== */
+
+        .footer{;
+                width: 100%;
+                background-color: #CBD9EA;
+                padding-top: 25px;
+                padding-bottom: 25px;
+                }
+
+                .footer a{color: #000000;
+                        margin-left: -50px;
+                    text-decoration: none;
+                    text-align: center;
+                    font-family: AvenirLT-Book;
+                    font-size: 14px;
+                    line-height: 22px;
+
+                    display: block;
+                    -webkit-margin-before: 1em;
+                    -webkit-margin-after: 1em;
+                    -webkit-margin-start: 0px;
+                    -webkit-margin-end: 0px;
+
+
+                }
